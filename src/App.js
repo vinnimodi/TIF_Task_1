@@ -1,6 +1,5 @@
 import "./App.css";
 import vanlogo from "./images/Screenshot_669 1.png";
-// import vector from "./images/Vector 1.png";
 import pizza from "./images/Rectangle 400.png";
 import pharma from "./images/pharma.png";
 import vanlogo2 from "./images/Screenshot_669 2.png";
@@ -15,7 +14,10 @@ import corn from "./images/corn.png";
 import taco from "./images/taco.png";
 import g322 from "./images/Group 322.png";
 import g323 from "./images/Group 323.png";
-import frac from "./images/2.png";
+import frac from "./images/frac.png";
+import g324 from "./images/Group 324.png";
+import g325 from "./images/Group 325.png";
+import frac1 from "./images/frac1.png";
 
 function App() {
   return (
@@ -54,7 +56,6 @@ function App() {
           <br />
           better care & support of your body.
         </div>
-        {/* <div className="rec404"> */}
         <div className="rec409">
           <div id="pharma">
             <img src={pharma} alt="pharma" />
@@ -114,19 +115,6 @@ function App() {
               <div className="readdown">Read More</div>
             </span>
           </div>
-
-          <div className="foodcard soup">
-            <img src={soup} alt="soup" />
-            <span className="ftext">
-              <span className="heading">Broccoli Cheese Soup</span>
-              <div id="loremfood">
-                PLorem Ipsum is simply dummy text of the printing and
-                typesetting industry. Lorem Ipsum has been the industry's
-                standard...
-              </div>
-              <div className="readdown">Read More</div>
-            </span>
-          </div>
           <div className="foodcard corn">
             <img src={corn} alt="corn" />
             <span className="ftext">
@@ -151,12 +139,37 @@ function App() {
               <div className="readdown">Read More</div>
             </span>
           </div>
+          <div className="foodcard soup">
+            <img src={soup} alt="soup" />
+            <span className="ftext">
+              <span className="heading">Broccoli Cheese Soup</span>
+              <div id="loremfood">
+                PLorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the industry's
+                standard...
+              </div>
+              <div className="readdown">Read More</div>
+            </span>
+          </div>
         </div>
         <div className="newfrac">
-          {/* please add images of 2, g322,g323 */}
-          <img src={g322} alt="g322" />
-          <img src={2} alt="2" />
-          <img src={g323} alt="g323" />
+          <span id="scroll1">
+            <img src={g322} alt="g322" />
+          </span>
+          <img src={frac} alt="1" />
+          <span id="scroll2">
+            <img src={g323} alt="g323" />
+          </span>
+        </div>
+
+        <div className="newfrac1">
+          <span id="scroll3">
+            <img src={g324} alt="g324" />
+          </span>
+          <img src={frac1} alt="2" />
+          <span id="scroll4">
+            <img src={g325} alt="g325" />
+          </span>
         </div>
         <div id="rec19">
           <div className="vanlogo2">
@@ -205,23 +218,3 @@ function App() {
 }
 
 export default App;
-
-// {/* <div id="compfb">
-//   <div id="rec392">
-//     <div className="path1">
-//       <img src={path1} alt="fb" />
-//       </div>
-//       </div>
-//       </div>
-//       <div id="frame7">
-//   <div id="rec393">
-//   <div className="path2">
-//   <img src={path2} alt="tweeter" />
-//   </div>
-//   </div>
-//   </div>
-// <div id="rec391">
-// <div className="path3">
-//     <img src={path3} alt="insta" />
-//     </div>
-//   </div> */}
