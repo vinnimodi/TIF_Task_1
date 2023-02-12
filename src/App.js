@@ -75,12 +75,9 @@ function App() {
           </div>
         </div>
         {/* </div> */}
-        <div className="vanlogo2">
-          <img src={vanlogo2} alt="vanlogo2" />
-        </div>
         <div className="latest">Latest Articles</div>
         <div className="food">
-          <div className="tomato">
+          <div className="foodcard tomato">
             <img src={tomato} alt="tomato" />
             <br />
             <br />
@@ -93,7 +90,7 @@ function App() {
             </div>
             <div className="readdown">Read More</div>
           </div>
-          <div className="post">
+          <div className="foodcard post">
             <img src={premeal} alt="post" />
             <br />
             <br />
@@ -106,7 +103,7 @@ function App() {
             </div>
             <div className="readdown">Read More</div>
           </div>
-          <div className="pre">
+          <div className="foodcard pre">
             <img src={postmeal} alt="pre" />
             <br />
             <br />
@@ -120,7 +117,7 @@ function App() {
             <div className="readdown">Read More</div>
           </div>
 
-          {/* <div className="soup">
+          <div className="foodcard soup">
             <img src={soup} alt="soup" />
             <br />
             <br />
@@ -132,7 +129,7 @@ function App() {
             </div>
             <div className="readdown">Read More</div>
           </div>
-          <div className="corn">
+          <div className="foodcard corn">
             <img src={corn} alt="corn" />
             <br />
             <br />
@@ -145,7 +142,7 @@ function App() {
             </div>
             <div className="readdown">Read More</div>
           </div>
-          <div className="taco">
+          <div className="foodcard taco">
             <img src={taco} alt="taco" />
             <br />
             <br />
@@ -156,50 +153,48 @@ function App() {
               industry. Lorem Ipsum has been the industry's standard...
             </div>
             <div className="readdown">Read More</div>
-          </div> */}
-        </div>
-        <span className="contactus">Contact Us</span>
-        <div className="c">
-          <span id="c1">
-            Lorem Ipsum Pvt Ltd.5/1, Magalton Road, Phartosh Gate near YTM
-            Market, XYZ-343434
-          </span>
-          <span id="c2">example2020@gmail.com</span>
-          <span id="c3">(904) 443-0343</span>
-        </div>
-
-        <div className="more">More</div>
-        <div className="m">
-          <div id="m1">About Us </div>
-          <div id="m2">Products</div>
-          <div id="m3">Career</div>
-          <div id="m4">Contact Us</div>
-        </div>
-
-        <div className="social">Social Links</div>
-        <div id="grp45">
-          <div className="links">
-            <img src={links} alt="links" />
           </div>
         </div>
-        <div id="compfb">
-          <div id="rec392">
-            <div className="path1">
-              <img src={path1} alt="fb" />
+        <div id="rec19">
+          <div className="vanlogo2">
+            <img src={vanlogo2} alt="vanlogo2" />
+          </div>
+          <div id="grp177">
+            <span className="contactus">Contact Us</span>
+            <div className="c">
+              <span id="c1">
+                Lorem Ipsum Pvt Ltd.5/1, Magalton Road, Phartosh Gate near YTM
+                Market, XYZ-343434
+              </span>
+              <span id="c2">example2020@gmail.com</span>
+              <span id="c3">(904) 443-0343</span>
             </div>
           </div>
-        </div>
-        <div id="frame7">
-          <div id="rec393">
-            <div className="path2">
-              <img src={path2} alt="tweeter" />
+          <div id="grp176">
+            <div className="more">More</div>
+            <div className="m">
+              <div id="m1">About Us </div>
+              <div id="m2">Products</div>
+              <div id="m3">Career</div>
+              <div id="m4">Contact Us</div>
             </div>
           </div>
-        </div>
-        <div id="rec391">
-          <div className="path3">
-            <img src={path3} alt="insta" />
+          <div id="grpsocial">
+            <div className="social">Social Links</div>
+            <div id="grpicons">
+              <div class="path3">
+                <img src={path3} alt="insta" />
+              </div>
+              <div class="path2">
+                <img src={path2} alt="tweeter" />
+              </div>
+              <div class="path1">
+                <img src={path1} alt="fb" />
+              </div>
+            </div>
           </div>
+          <div className="links">© 2022 Food Truck Example</div>
+          {/* footer */}
         </div>
       </div>
     </>
@@ -207,3 +202,23 @@ function App() {
 }
 
 export default App;
+
+// {/* <div id="compfb">
+//   <div id="rec392">
+//     <div className="path1">
+//       <img src={path1} alt="fb" />
+//       </div>
+//       </div>
+//       </div>
+//       <div id="frame7">
+//   <div id="rec393">
+//   <div className="path2">
+//   <img src={path2} alt="tweeter" />
+//   </div>
+//   </div>
+//   </div>
+// <div id="rec391">
+// <div className="path3">
+//     <img src={path3} alt="insta" />
+//     </div>
+//   </div> */}
