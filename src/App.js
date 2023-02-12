@@ -7,14 +7,15 @@ import vanlogo2 from "./images/Screenshot_669 2.png";
 import path1 from "./images/Path 1.png";
 import path2 from "./images/Path 2.png";
 import path3 from "./images/Path 3.png";
-import links from "./images/Food Truck.png";
 import tomato from "./images/grilled-tomatoes.png";
 import premeal from "./images/meal-prep.png";
 import postmeal from "./images/meal-prep2.png";
 import soup from "./images/soup.png";
 import corn from "./images/corn.png";
 import taco from "./images/taco.png";
-import rec417 from "./images/Rectangle 417.png";
+import g322 from "./images/Group 322.png";
+import g323 from "./images/Group 323.png";
+import frac from "./images/2.png";
 
 function App() {
   return (
@@ -75,85 +76,87 @@ function App() {
           </div>
         </div>
         {/* </div> */}
-        <div className="latest">Latest Articles</div>
+        <div id="latest">Latest Articles</div>
         <div className="food">
           <div className="foodcard tomato">
             <img src={tomato} alt="tomato" />
-            <br />
-            <br />
-            Grilled Tomatoes at Home
-            <br />
-            <br />
-            <div id="loremfood">
-              PLorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard...
-            </div>
-            <div className="readdown">Read More</div>
+            <span className="ftext">
+              <span className="heading">Grilled Tomatoes at Home</span>
+              <div id="loremfood">
+                PLorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the industry's
+                standard...
+              </div>
+              <div className="readdown">Read More</div>
+            </span>
           </div>
           <div className="foodcard post">
             <img src={premeal} alt="post" />
-            <br />
-            <br />
-            Post-workout Recipes
-            <br />
-            <br />
-            <div id="loremfood">
-              PLorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard...
-            </div>
-            <div className="readdown">Read More</div>
+            <span className="ftext">
+              <span className="heading">Post-workout Recipes</span>
+              <div id="loremfood">
+                PLorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the industry's
+                standard...
+              </div>
+              <div className="readdown">Read More</div>
+            </span>
           </div>
           <div className="foodcard pre">
             <img src={postmeal} alt="pre" />
-            <br />
-            <br />
-            Snacks for Travel
-            <br />
-            <br />
-            <div id="loremfood">
-              PLorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard...
-            </div>
-            <div className="readdown">Read More</div>
+            <span className="ftext">
+              <span className="heading">Snacks for Travel</span>
+              <div id="loremfood">
+                PLorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the industry's
+                standard...
+              </div>
+              <div className="readdown">Read More</div>
+            </span>
           </div>
 
           <div className="foodcard soup">
             <img src={soup} alt="soup" />
-            <br />
-            <br />
-            Broccoli Cheese Soup <br />
-            <br />
-            <div id="loremfood">
-              PLorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard...
-            </div>
-            <div className="readdown">Read More</div>
+            <span className="ftext">
+              <span className="heading">Broccoli Cheese Soup</span>
+              <div id="loremfood">
+                PLorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the industry's
+                standard...
+              </div>
+              <div className="readdown">Read More</div>
+            </span>
           </div>
           <div className="foodcard corn">
             <img src={corn} alt="corn" />
-            <br />
-            <br />
-            How To Grill Corn
-            <br />
-            <br />
-            <div id="loremfood">
-              PLorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard...
-            </div>
-            <div className="readdown">Read More</div>
+            <span className="ftext">
+              <span className="heading">How To Grill Corn</span>
+              <div id="loremfood">
+                PLorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the industry's
+                standard...
+              </div>
+              <div className="readdown">Read More</div>
+            </span>
           </div>
           <div className="foodcard taco">
             <img src={taco} alt="taco" />
-            <br />
-            <br />
-            Crunchwrap Supreme <br />
-            <br />
-            <div id="loremfood">
-              PLorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard...
-            </div>
-            <div className="readdown">Read More</div>
+            <span className="ftext">
+              <span className="heading">Crunchwrap Supreme</span>
+              <div id="loremfood">
+                PLorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum has been the industry's
+                standard...
+              </div>
+              <div className="readdown">Read More</div>
+            </span>
           </div>
+        </div>
+        <div className="newfrac">
+          {/* please add images of 2, g322,g323 */}
+          <img src={g322} alt="g322" />
+          <img src={2} alt="2" />
+          <img src={g323} alt="g323" />
         </div>
         <div id="rec19">
           <div className="vanlogo2">

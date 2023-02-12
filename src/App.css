@@ -4,10 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Marmelad&family=Open+Sans&family=PT+Serif:ital@0;1&family=Poppins:wght@400;500;700&family=Source+Sans+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Marmelad&family=Open+Sans&family=PT+Serif:ital@0;1&family=Poppins:wght@400;500;700&family=Roboto&family=Source+Sans+Pro&display=swap');
 
-.App {
-  /* overflow: hidden; */
-}
-
 .App * {
   flex: none;
   order: 0;
@@ -30,7 +26,7 @@ svg {
   /* left: calc(50% - 735px/2 + 352.5px); */
   /* left: 688px; */
   right: 0px;
-  top: -1px;
+  top: -2px;
 }
 
 .pizza {
@@ -172,8 +168,20 @@ svg {
 
 .foodcard {
   border: 1.37px solid rgba(147, 162, 211, 0.38);
-  height: 554px;
+  /* height: 554px; */
   width: 381px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 27px 27px 40.08px 27px;
+  border-radius: 20.937px;
+  gap: 35.51px;
+}
+
+.foodcard>img {
+
+  /* padding: 27px; */
 }
 
 .links {
@@ -226,17 +234,17 @@ svg {
 
 .getintouch {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 3px 26px;
-  gap: 10px;
+  padding: 0;
+  /* gap: 10px; */
 
   position: absolute;
   width: 122px;
   height: 42px;
-  left: 1277px;
+  right: 41px;
   top: 32px;
+  z-index: 2;
 
   border: 1px solid #FFFFFF;
   border-radius: 21px;
@@ -244,7 +252,7 @@ svg {
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  line-height: 36px;
+  /* line-height: 36px; */
   /* identical to box height, or 225% */
 
   letter-spacing: 0.03em;
@@ -346,7 +354,7 @@ svg {
 }
 
 #rec19 {
-  position: relative;
+  position: absolute;
   width: 1440px;
   height: 362px;
   left: 1px;
@@ -445,25 +453,31 @@ svg {
 }
 
 .social {
-  /* position: absolute; */
   width: 129px;
   height: 27px;
-  /* left: 1208px; */
-  /* top: 2535px; */
-
   font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: 600;
   font-size: 19px;
   line-height: 27px;
-  /* identical to box height, or 142% */
   letter-spacing: 0.03em;
   color: #0E2368;
   top: 2535px;
 
 }
 
-.latest {
+.heading {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 27px;
+  color: #0E2368;
+  top: 319.51px;
+
+}
+
+#latest {
   position: absolute;
   width: 461px;
   height: 84px;
@@ -475,121 +489,92 @@ svg {
   font-weight: 600;
   font-size: 56px;
   line-height: 42px;
-  /* or 75% */
   letter-spacing: 0.04em;
   color: #0E2368;
 
 }
 
 .food {
+  position: absolute;
+  top: calc(1614px + 84px);
+  left: 108px;
+  /* width: 200vw; */
   display: grid;
-  grid-template-columns: auto auto auto;
+  gap: 40px;
+  grid-template-columns: repeat(6, auto);
 }
 
-.tomato {
-  position: absolute;
-  /* width: 326px;
+/* .tomato {
+  /* position: absolute; */
+/* width: 326px;
   height: 257px; */
-  left: 135px;
+/* left: 135px;
   top: 1766px;
-  border-radius: 21px;
-  width: 285px;
-  /* height: 27px;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 21px;
-  line-height: 27px;
-  color: #0E2368; */
-}
+  border-radius: 21px; */
+/* width: 285px; */
+/* height: 27px;*/
+
+/* } */
 
 .pre {
-  position: absolute;
-  width: 326px;
-  /* height: 258px; */
+  /* position: absolute; */
+  /* width: 326px; */
+  /* height: 258px;
   left: 557px;
   top: 1766px;
   border-radius: 21px;
-  width: 186px;
-  /* height: 27px;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 21px;
-  line-height: 27px;
-  color: #0E2368; */
+  width: 186px; */
+  /* height: 27px;*/
+
 
 }
 
 .post {
-  position: absolute;
-  width: 326px;
+  /* position: absolute; */
+  /* width: 326px; */
   /* height: 258px; */
-  left: 979px;
-  top: 1766px;
-  border-radius: 21px;
-  width: 238px;
-  /* height: 27px;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 21px;
-  line-height: 27px;
-  color: #0E2368; */
+  /* left: 979px; */
+  /* top: 1766px; */
+  /* border-radius: 21px; */
+  /* width: 238px; */
 
 }
 
+/* 
 .bor {
   box-sizing: border-box;
   border: 1.37039px solid rgba(147, 162, 211, 0.38);
   border-radius: 20.937px;
-}
+} */
 
 
 .soup {
-  position: absolute;
-  width: 326px;
-  /* height: 258px; */
+  /* position: absolute; */
+  /* width: 326px; */
+  /* height: 258px;
   left: 2425px;
   top: 1767px;
-
-  border-radius: 21px;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 21px;
-  line-height: 27px;
-  color: #0E2368;
+  border-radius: 21px; */
 }
 
 .taco {
-  position: absolute;
-  width: 326px;
+  /* position: absolute; */
+  /* width: 326px; */
   /* height: 258px; */
-  left: 2003px;
+  /* left: 2003px;
   top: 1767px;
-  border-radius: 21px;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 21px;
-  line-height: 27px;
-  color: #0E2368;
+  border-radius: 21px; */
+
 }
 
 .corn {
-  position: absolute;
+  /* position: absolute; */
   /* width: 326px;
   height: 257px; */
   left: 1581px;
   top: 1767px;
   border-radius: 21px;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 21px;
-  line-height: 27px;
-  color: #0E2368;
+
 }
 
 #frame2 {
@@ -649,11 +634,19 @@ svg {
   color: #FFFFFF;
 }
 
+.ftext {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  justify-content: space-between;
+  /* gap: 27.41px; */
+  height: 194.52px;
+}
 
 .readdown {
   white-space: nowrap;
-  /* width: 79px;
-  height: 36px; */
+  align-self: flex-start;
   font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: 600;
@@ -662,8 +655,10 @@ svg {
   letter-spacing: 0.03em;
   color: #424961;
   padding: 3px 26px;
-  gap: 10px;
-
+  /* gap: 10px; */
+  border-radius: 21px;
+  border: 1px solid #424961;
+  /* margin-left: calc(27px + 26px); */
 
 }
 
